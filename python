@@ -18,11 +18,7 @@ SyntaxError: multiple statements found while compiling a single statement
 54
 >>> max(12.3, 7)
 12.3
->>> dir(_builtins_)
-Traceback (most recent call last):
-  File "<pyshell#13>", line 1, in <module>
-    dir(_builtins_)
-NameError: name '_builtins_' is not defined
+>>>
 >>> dir(__builtins__)
 ['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '_', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'all', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
 >>> """estas son las funciones preconstruidas """
@@ -63,14 +59,14 @@ pow(x, y, z=None, /)
 >>> pow(3, 5)
 243
 >>> >>> """definior nuestras propias funciones . La sintacxis funcion ejemplo"""
-'definior nuestras propias funciones . La sintacxis funcion ejemplo'
+
 >>> def doble(x):
 	return x*2
 
 >>> doble(8)
 16
 >>> """ para crear función se mpieza colocar la palabra clave def luego el nombre que le damos a esa función luego abrir parentesis ser coloca para metro que son variables o argunmentospara llamarlo debemos tambien llamar variable y finalmente se coloca : dos puntos. Esto es la cabecera de la funcion. Luego el cuerpo de la función , estas lineas aparecen mas a la derecha o indentation , este sistema permite un codigo mas claro no necesita llaves o corchetes y en la queda asi  """
-' para crear función se mpieza colocar la palabra clave def luego el nombre que le damos a esa función luego abrir parentesis ser coloca para metro que son variables o argunmentospara llamarlo debemos tambien llamar variable y finalmente se coloca : dos puntos. Esto es la cabecera de la funcion. Luego el cuerpo de la función , estas lineas aparecen mas a la derecha o indentation , este sistema permite un codigo mas claro no necesita llaves o corchetes y en la queda asi  '
+
 >>> def doble (x):
 	valor=x*2
 	return=valor
@@ -95,7 +91,7 @@ SyntaxError: invalid syntax
 >>> area_triangulo(35, 53)
 927.5
 >>> """como guardar codigo que vayamnos creando shell restart shell"""
-'como guardar codigo que vayamnos creando shell restart shell'
+
 >>> 
 =============================== RESTART: Shell ===============================
 >>> area_triangulo(3, 4)
@@ -132,7 +128,7 @@ NameError: name 'area_triangulo' is not defined
 >>> area_rectangulo(5, 4)
 20
 >>>  """para facilitar el mantenimiento y lectura de programas demasiado largos python los divide en modulos agrupan elementos relacionados entres i por ej agrupan y organizan y division d elogica de nuestro codigo , los ficheros son su contrapartida fisica cada archiva python almacenada en el disco equivale a un modulo puede incluir muchas funciones del lenguaje python"""
-'para facilitar el mantenimiento y lectura de programas demasiado largos python los divide en modulos agrupan elementos relacionados entres i por ej agrupan y organizan y division d elogica de nuestro codigo , los ficheros son su contrapartida fisica cada archiva python almacenada en el disco equivale a un modulo puede incluir muchas funciones del lenguaje python'
+
 >>> 
 = RESTART: C:/Users/PRO/Desktop/programacion unity/python/archivo python.py =
 >>> 
@@ -154,14 +150,14 @@ NameError: name 'area_triangulo' is not defined
 >>> perimetro_rectangulo(6,5,8,7)
 26
 >>> """Tipos de datos palabras string o ley es conjunto de caracteres entre comillas sencillas o dobles"""
-'Tipos de datos palabras string o ley es conjunto de caracteres entre comillas sencillas o dobles'
+
 >>> cervantes = "Escritor español que escribió Don Quijote" """string se escribe str son un tipo de datos y son valores  y pueden ser usados en un tipo de asignacion ejemplo"""
 >>> cervantes
 'Escritor español que escribió Don Quijotestring se escribe str son un tipo de datos y son valores  y pueden ser usados en un tipo de asignacion ejemplo'
 >>> """ jejeje me quedo todo"""
-' jejeje me quedo todo'
+
 >>> """string puede ser letras , numneros o signos ortograficos"""
-'string puede ser letras , numneros o signos ortograficos'
+
 >>> cervantes = 'Escritor español que escribio "Don Quijote" '
 >>> cervantes
 'Escritor español que escribio "Don Quijote" '
@@ -174,15 +170,14 @@ SyntaxError: unexpected indent
 >>> cervantes
 ' Escritor español que escribio "Don Quijote" libro muy conocido.'
 >>> """la barra invertida hace q no quede error con comillas incluidas dentro de comillas o sea q las comillas de adentro es el signo ortografico que yo quiero utilizar"""
-'la barra invertida hace q no quede error con comillas incluidas dentro de comillas o sea q las comillas de adentro es el signo ortografico que yo quiero utilizar'
->>> """los operadores se pueden usar con strings el operador mas + concatena o unir strings ejemplo"""
+
 'los operadores se pueden usar con strings el operador mas + concatena o unir strings ejemplo'
 >>> "verano" + " caluroso"
 'verano caluroso'
 >>> "verano"+"caluroso"
 'veranocaluroso'
 >>> """ los espacios se tienen en cuenta la multiplicacion repite el numero de veces ejemplo"""
-' los espacios se tienen en cuenta la multiplicacion repite el numero de veces ejemplo'
+
 >>> "verano" *5
 'veranoveranoveranoveranoverano'
 >>> "verano " *5
@@ -194,7 +189,7 @@ SyntaxError: unexpected indent
 >>> ("verano " +"caluroso ") *5
 'verano caluroso verano caluroso verano caluroso verano caluroso verano caluroso '
 >>> """no se puede usar el mas constring y numero ejemplo "verano" +4 debe quedar es asi"""
-'no se puede usar el mas constring y numero ejemplo "verano" +4 debe quedar es asi'
+
 >>> "verano " + "4"
 'verano 4'
 >>> """ tampoco se puede multiplicar dos string
