@@ -131,4 +131,70 @@ NameError: name 'area_triangulo' is not defined
  RESTART: C:/Users/PRO/Desktop/programacion unity/python/modulo_rectangulo.py 
 >>> area_rectangulo(5, 4)
 20
+>>>  """para facilitar el mantenimiento y lectura de programas demasiado largos python los divide en modulos agrupan elementos relacionados entres i por ej agrupan y organizan y division d elogica de nuestro codigo , los ficheros son su contrapartida fisica cada archiva python almacenada en el disco equivale a un modulo puede incluir muchas funciones del lenguaje python"""
+'para facilitar el mantenimiento y lectura de programas demasiado largos python los divide en modulos agrupan elementos relacionados entres i por ej agrupan y organizan y division d elogica de nuestro codigo , los ficheros son su contrapartida fisica cada archiva python almacenada en el disco equivale a un modulo puede incluir muchas funciones del lenguaje python'
 >>> 
+= RESTART: C:/Users/PRO/Desktop/programacion unity/python/archivo python.py =
+>>> 
+=============================== RESTART: Shell ===============================
+>>> 
+= RESTART: C:/Users/PRO/Desktop/programacion unity/python/archivo python.py =
+>>> perimetro_triangulo(4,6,3)
+13
+>>> 
+=============================== RESTART: Shell ===============================
+>>> 
+ RESTART: C:/Users/PRO/Desktop/programacion unity/python/modulo_rectangulo.py 
+>>> area_rectangulo(5, 4)
+20
+>>> 
+=============================== RESTART: Shell ===============================
+>>> 
+ RESTART: C:/Users/PRO/Desktop/programacion unity/python/modulo_rectangulo.py 
+>>> perimetro_rectangulo(6,5,8,7)
+26
+>>> """Tipos de datos palabras string o ley es conjunto de caracteres entre comillas sencillas o dobles"""
+'Tipos de datos palabras string o ley es conjunto de caracteres entre comillas sencillas o dobles'
+>>> cervantes = "Escritor español que escribió Don Quijote" """string se escribe str son un tipo de datos y son valores  y pueden ser usados en un tipo de asignacion ejemplo"""
+>>> cervantes
+'Escritor español que escribió Don Quijotestring se escribe str son un tipo de datos y son valores  y pueden ser usados en un tipo de asignacion ejemplo'
+>>> """ jejeje me quedo todo"""
+' jejeje me quedo todo'
+>>> """string puede ser letras , numneros o signos ortograficos"""
+'string puede ser letras , numneros o signos ortograficos'
+>>> cervantes = 'Escritor español que escribio "Don Quijote" '
+>>> cervantes
+'Escritor español que escribio "Don Quijote" '
+>>> cervantes = " Escritor español que escribio /"Don Quijote/" libro muy conocido."
+SyntaxError: invalid syntax
+>>>  cervantes = " Escritor español que escribio \"Don Quijote\" libro muy conocido."
+ 
+SyntaxError: unexpected indent
+>>> cervantes = " Escritor español que escribio \"Don Quijote\" libro muy conocido."
+>>> cervantes
+' Escritor español que escribio "Don Quijote" libro muy conocido.'
+>>> """la barra invertida hace q no quede error con comillas incluidas dentro de comillas o sea q las comillas de adentro es el signo ortografico que yo quiero utilizar"""
+'la barra invertida hace q no quede error con comillas incluidas dentro de comillas o sea q las comillas de adentro es el signo ortografico que yo quiero utilizar'
+>>> """los operadores se pueden usar con strings el operador mas + concatena o unir strings ejemplo"""
+'los operadores se pueden usar con strings el operador mas + concatena o unir strings ejemplo'
+>>> "verano" + " caluroso"
+'verano caluroso'
+>>> "verano"+"caluroso"
+'veranocaluroso'
+>>> """ los espacios se tienen en cuenta la multiplicacion repite el numero de veces ejemplo"""
+' los espacios se tienen en cuenta la multiplicacion repite el numero de veces ejemplo'
+>>> "verano" *5
+'veranoveranoveranoveranoverano'
+>>> "verano " *5
+'verano verano verano verano verano '
+>>> "verano " +"caluroso " *5
+'verano caluroso caluroso caluroso caluroso caluroso '
+>>> """prioridad multiplicacion sobre suma por lo tanto se usan parentesis"""
+'prioridad multiplicacion sobre suma por lo tanto se usan parentesis'
+>>> ("verano " +"caluroso ") *5
+'verano caluroso verano caluroso verano caluroso verano caluroso verano caluroso '
+>>> """no se puede usar el mas constring y numero ejemplo "verano" +4 debe quedar es asi"""
+'no se puede usar el mas constring y numero ejemplo "verano" +4 debe quedar es asi'
+>>> "verano " + "4"
+'verano 4'
+>>> """ tampoco se puede multiplicar dos string
