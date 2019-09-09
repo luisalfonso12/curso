@@ -1,0 +1,65 @@
+>>> ancho=10
+>>> alto=9
+>>> area=ancho*alto
+>>> area
+90
+>>> """leyes no se permite que variable empiece por numero deben empezar con letra o subrayado o barra al piso el nombre solo contiene letra numero o subrayado, las letras pueden ser mayusculas o minusculas mezcladas pero python diferencia mayusculas y minusculas o sea q pueden formarse variables distintas es sensitive Ancho y ancho por esto se deben tener convenciones que se recogen en pep8 documento q se debe seguir mejor variables en minusculas , si hay dos palabras separadas por barra al piso ancho_total"""
+"""funciones cual numero es mayor si existe se llama"""
+SyntaxError: multiple statements found while compiling a single statement
+>>> max (4,7)
+7
+>>> """funcion se llama por nombre abre parentesis alli van los argumentos separados por comas, el numero de arguymentos varia segun la funcion , hay funciones q no tienen argumentos ero debe llevbar parentesis"""
+'funcion se llama por nombre abre parentesis alli van los argumentos separados por comas, el numero de arguymentos varia segun la funcion , hay funciones q no tienen argumentos ero debe llevbar parentesis'
+>>> max(32.6,54.2)
+54.2
+>>> """ espacio entre comas mejor"""
+' espacio entre comas mejor'
+>>> max(34, 21, 54)
+54
+>>> max(12.3, 7)
+12.3
+>>> dir(_builtins_)
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    dir(_builtins_)
+NameError: name '_builtins_' is not defined
+>>> dir(__builtins__)
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '_', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'all', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+>>> """estas son las funciones preconstruidas """
+'estas son las funciones preconstruidas '
+>>> help(max)
+Help on built-in function max in module builtins:
+
+max(...)
+    max(iterable, *[, default=obj, key=func]) -> value
+    max(arg1, arg2, *args, *[, key=func]) -> value
+    
+    With a single iterable argument, return its biggest item. The
+    default keyword-only argument specifies an object to return if
+    the provided iterable is empty.
+    With two or more arguments, return the largest argument.
+
+>>> """ LO DE ABAJO ES DEFINICIÓN ARRIBA INDICA COMO METER LOS Argumentos y lo de las llaves que puede haber otro tipo de argumentos opcionales que se pueden o no utilizar     la flecha indica que debe devolver algun valor"""
+' LO DE ABAJO ES DEFINICIÓN ARRIBA INDICA COMO METER LOS Argumentos y lo de las llaves que puede haber otro tipo de argumentos opcionales que se pueden o no utilizar     la flecha indica que debe devolver algun valor'
+>>> abs(-43)
+43
+>>> help(abs)
+Help on built-in function abs in module builtins:
+
+abs(x, /)
+    Return the absolute value of the argument.
+
+>>> help(pow)
+Help on built-in function pow in module builtins:
+
+pow(x, y, z=None, /)
+    Equivalent to x**y (with two arguments) or x**y % z (with three arguments)
+    
+    Some types, such as ints, are able to use a more efficient algorithm when
+    invoked using the three argument form.
+
+>>> 3**5
+243
+>>> pow(3, 5)
+243
+>>> 
