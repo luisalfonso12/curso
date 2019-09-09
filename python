@@ -62,4 +62,73 @@ pow(x, y, z=None, /)
 243
 >>> pow(3, 5)
 243
+>>> >>> """definior nuestras propias funciones . La sintacxis funcion ejemplo"""
+'definior nuestras propias funciones . La sintacxis funcion ejemplo'
+>>> def doble(x):
+	return x*2
+
+>>> doble(8)
+16
+>>> """ para crear función se mpieza colocar la palabra clave def luego el nombre que le damos a esa función luego abrir parentesis ser coloca para metro que son variables o argunmentospara llamarlo debemos tambien llamar variable y finalmente se coloca : dos puntos. Esto es la cabecera de la funcion. Luego el cuerpo de la función , estas lineas aparecen mas a la derecha o indentation , este sistema permite un codigo mas claro no necesita llaves o corchetes y en la queda asi  """
+' para crear función se mpieza colocar la palabra clave def luego el nombre que le damos a esa función luego abrir parentesis ser coloca para metro que son variables o argunmentospara llamarlo debemos tambien llamar variable y finalmente se coloca : dos puntos. Esto es la cabecera de la funcion. Luego el cuerpo de la función , estas lineas aparecen mas a la derecha o indentation , este sistema permite un codigo mas claro no necesita llaves o corchetes y en la queda asi  '
+>>> def doble (x):
+	valor=x*2
+	return=valor
+SyntaxError: invalid syntax
+>>> area = ancho * alto
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    area = ancho * alto
+NameError: name 'ancho' is not defined
+>>> def area_rectangulo(ancho, alto) :
+	area= ancho * alto
+	return area
+
+>>> area_rectangulo(5, 7)"""ancho y alto es parametros 5 y 7 son argumentos"""
+SyntaxError: invalid syntax
+>>> area_rectangulo(5, 7)
+35
+ def area_triangulo(base, alto) :
+	area =(base * alto)/2
+	return area
+
+>>> area_triangulo(35, 53)
+927.5
+>>> """como guardar codigo que vayamnos creando shell restart shell"""
+'como guardar codigo que vayamnos creando shell restart shell'
+>>> 
+=============================== RESTART: Shell ===============================
+>>> area_triangulo(3, 4)
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    area_triangulo(3, 4)
+NameError: name 'area_triangulo' is not defined
+>>> 
+== RESTART: C:/Users/PRO/Desktop/programacion unity/python/curso-python.py ==
+>>> 
+== RESTART: C:/Users/PRO/Desktop/programacion unity/python/curso-python.py ==
+>>> """ los programas python suelen dividirse en módulos
+ RESTART: C:/Users/PRO/Desktop/programacion unity/python/archivo python.py =
+>>> 
+=============================== RESTART: Shell ===============================
+>>> 
+= RESTART: C:/Users/PRO/Desktop/programacion unity/python/archivo python.py =
+>>> area_triangulo (4,2)
+4.0
+>>> """para facilitar el mantenimiento y lectura de programas demasiado largos python los divide en modulos agrupan elementos relacionados entres i por ej agrupan y organizan y division d elogica de nuestro codigo , los ficheros son su contrapartida fisica cada archiva python almacenada en el disco equivale a un modulo puede incluir muchas funciones del lenguaje python"""
+'para facilitar el mantenimiento y lectura de programas demasiado largos python los divide en modulos agrupan elementos relacionados entres i por ej agrupan y organizan y division d elogica de nuestro codigo , los ficheros son su contrapartida fisica cada archiva python almacenada en el disco equivale a un modulo puede incluir muchas funciones del lenguaje python'
+>>> 
+= RESTART: C:/Users/PRO/Desktop/programacion unity/python/archivo python.py =
+>>> 
+=============================== RESTART: Shell ===============================
+>>> 
+= RESTART: C:/Users/PRO/Desktop/programacion unity/python/archivo python.py =
+>>> perimetro_triangulo(4,6,3)
+13
+>>> 
+=============================== RESTART: Shell ===============================
+>>> 
+ RESTART: C:/Users/PRO/Desktop/programacion unity/python/modulo_rectangulo.py 
+>>> area_rectangulo(5, 4)
+20
 >>> 
