@@ -1,0 +1,85 @@
+>>> print ("Hola")
+Hola
+>>> """ las comillas no se ven porque es solo para python interno esto es para la pantalla"""
+
+>>> print(6+7)
+13
+>>> print("hola", "mundo")
+hola mundo
+>>> """aqui no es necesario los espacios print los hace por defecto"""
+
+>>> ## comentarios
+>>> 
+==== RESTART: C:/Users/PRO/Desktop/programacion unity/python/comparar.py ====
+>>> ## llamar funciones y guardar resultados en variables
+>>> respuesta_return = cuadrado_return (7)
+>>> ##se crearon estas variables creamos otra variable
+>>> respuesta_print = cuadrado_print(9)
+el cuadrado de num es 81
+>>> ## analizando el contenido d ecada una de las variables
+>>> respuesta_return
+49
+>>> ## no lo imprime
+>>> respuesta_print
+>>> ## no devuelve porque respuesta_print no contiene return por lo tanto no ha almacenado esa variable noi el resultado de llamar a la funcion
+>>> cuadrado_print(6)
+el cuadrado de num es 36
+>>> 
+==== RESTART: C:/Users/PRO/Desktop/programacion unity/python/comparar.py ====
+>>> cuadrado_print(6)
+el cuadrado de 6 es 36     MAL ESTA TAREA DEBE GENERALIZARSE PARA QUE SIRVA PARA TODOS LOS NUMEROS
+>>> ## funcion preconstruida input devuelve la respuesta de usuario para almancenar y utilizar posteriormente
+>>> input("¿Cómo te llamas?")
+¿Cómo te llamas? Jesus   ##el prompt queda parpadeando esperando que el ususario escriba algo
+' Jesus   ##el prompt queda parpadeando esperando que el ususario escriba algo'
+>>> input("¿Como te llamas?")
+¿Como te llamas? Jesus
+' Jesus'
+>>> nombre = input("¿Como te llamas?")
+¿Como te llamas? Jesus
+>>> ## se crea la variable nombre y se modifica el prompt pues al dar la respuesta jesus ya no lo imprime porq lo que ha hecho es guardarlo
+>>> nombre
+' Jesus'
+>>> ## y asi si llamo esa variable ahora si muestra la respuesta
+>>> ciudad = input ("¿Donde vives?")
+¿Donde vives?Villavicencio
+>>> ciudad
+'Villavicencio'
+>>> print(nombre,ciudad)
+ Jesus Villavicencio
+>>> print(nombre, "vive en",ciudad)
+ Jesus vive en Villavicencio
+>>> ## toda la informacion que devulve input es string
+>>> input("¿cual es tu edad?")
+¿cual es tu edad?57
+'57'
+>>> ## notamos q es string por las comillas d e57
+>>> ## los string se puede escribir comillas sncillas, dobles o triple comilla
+>>> 'hola'
+'hola'
+>>> "hola"
+'hola'
+>>> '''hola'''
+'hola'
+>>> ##las triples comillas string en mas de una linea
+>>> print('''hola,
+como
+te
+encuentras''')
+hola,
+como
+te
+encuentras
+>>> triple ='''hola,
+como
+te
+encuentras'''
+>>> triple
+'hola,\ncomo\nte\nencuentras'
+>>> ##para cada salto de linea aparecio barra y n \n esto es un salto de linea se llama -secuenciua de escape- es un caracter especial otra es tabulador
+>>> print('3\t4\t5')
+3	4	5
+>>> #secuiencia de escape mustra esta tabulacion
+>>> print('\\')
+\
+>>> ##se escribe dos veces una es escape y otra es el q imprime
