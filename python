@@ -6,6 +6,8 @@
 >>> """leyes no se permite que variable empiece por numero deben empezar con letra o subrayado o barra al piso el nombre solo contiene letra numero o subrayado, las letras pueden ser mayusculas o minusculas mezcladas pero python diferencia mayusculas y minusculas o sea q pueden formarse variables distintas es sensitive Ancho y ancho por esto se deben tener convenciones que se recogen en pep8 documento q se debe seguir mejor variables en minusculas , si hay dos palabras separadas por barra al piso ancho_total"""
 """funciones cual numero es mayor si existe se llama"""
 SyntaxError: multiple statements found while compiling a single statement
+
+FUNCIONES
 >>> max (4,7)
 7
 >>> """funcion se llama por nombre abre parentesis alli van los argumentos separados por comas, el numero de arguymentos varia segun la funcion , hay funciones q no tienen argumentos ero debe llevbar parentesis"""
@@ -90,7 +92,7 @@ SyntaxError: invalid syntax
 
 >>> area_triangulo(35, 53)
 927.5
->>> """como guardar codigo que vayamnos creando shell restart shell"""
+>>> """como guardar codigo que vayamnos creando CREAR NUEVO ARCHIVO  shell restart shell"""
 
 >>> 
 =============================== RESTART: Shell ===============================
@@ -149,6 +151,9 @@ NameError: name 'area_triangulo' is not defined
  RESTART: C:/Users/PRO/Desktop/programacion unity/python/modulo_rectangulo.py 
 >>> perimetro_rectangulo(6,5,8,7)
 26
+
+STRING
+
 >>> """Tipos de datos palabras string o ley es conjunto de caracteres entre comillas sencillas o dobles"""
 
 >>> cervantes = "Escritor español que escribió Don Quijote" """string se escribe str son un tipo de datos y son valores  y pueden ser usados en un tipo de asignacion ejemplo"""
