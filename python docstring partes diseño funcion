@@ -68,3 +68,13 @@ area_rectangulo(base, alto)
 >>> convertir_a_litros(345)
 0.345
 >>> tipos de valores interger, strings, number, float
+def convertir_a_litros(mililitros):
+    '''(number)->number
+    Devuelve el numero de litros que equivalen a los mililitros pasados
+    >>>convertir_a_litros(500)
+    0.500
+    >>>convertir_a_litros(300)
+    0.300
+    '''
+    l = mililitros/1000
+    return l
