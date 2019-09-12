@@ -1,0 +1,70 @@
+>>> ##help informacion sobre una funcion tambien permite documentar tus propias funciones para lograrlo debemos escribir formato llamado docstring
+>>> ##l docstring debe colocarse despues de la cabecera e indentado con el sangrado asi
+>>> ## usar triples comillas para string en varias lineas, se le indica los parametros que hay que pasarle number y del valor del retorno con -> number esa es la primera lineaen la segunda linea informacion sobre lo q hace la funcion terminando con punto y cerrando las comillas
+>>> def area_rectangulo(base, alto) :
+    """(number,number) -> number
+    Devuelve el area de un rectangulo al pasarle su base y alto.
+    """
+    area =(base*alto)
+    return area
+## usar triples comillas para string en varias lineas, se le indica los parametros que hay que pasarle number y del valor del retorno con -> number esa es la primera lineaen la segunda linea informacion sobre lo q hace la funcion terminando con punto y cerrando las comillas asi se corre el run y aparece el docstring en nueva pantalla le doy   escribier help y aparece
+ help(area_rectangulo)
+Help on function area_rectangulo in module __main__:
+
+area_rectangulo(base, alto)
+    (number,number) -> number
+    Devuelve el area de un rectangulo al pasarle su base y alto.
+
+>>> ## al llamarla area_rectangulo y parentesis apareceque debo colocar y en numeros es decir me explica coincidiendo con el dostring
+>>> ## nO OLVIDAR Q EN LOS docstring se pueden añadir ejemplos para que nos quede mas claro
+>>> ##def area_rectangulo(base, alto) :
+    ##"""(number,number) -> number
+    ##Devuelve el area de un rectangulo al pasarle su base y alto.
+   ## >>>area_rectangulo(5,7)
+   ## 35
+    ##>>>area_rectangulo(3.5,5.7)
+   ## 19.95
+   ## """
+    ##area =(base*alto)
+    ##return area
+>>> ##la funcion tiene 5 partes 1) cabecera nombre y parámetros
+
+>>> area_rectangulo(3,6)
+18## 2)luego va el type contract  en el que se indica 3)el tipo de datos parametros y el tipo de datos de retorno 4)sigue la descripcion
+
+>>> ## Devuelve el area de un rectangulo al pasarle su base y alto. 5)y por ultimo un par de ejemplos de uso de la funcion y por ultimo el cuerpo de la función
+>>> ## area =(base*alto)
+    ##return area
+
+>>> ##SIEMPRE DEBEN CREARSE ESTE DISEÑO PARA FUNCION
+
+>>> convertir_a_millas(10)
+6.213699999999999
+>>> convertir_a_millas(34)
+21.12658
+>>> convertir_a_millas(234)
+145.40058
+>>> ## def convertir_a_millas(kilometros):
+
+    ##'''(number)-> float
+    ##Devuelve el numero d emillas equivalente a los kilometros pasados
+    ##>>>convertir_a_millas(34)
+    ##21.12658
+    ##>>>convertir_a_millas(234)
+    ##145.40058
+    ##'''
+    ##mi = kilometros*0.62137
+    ##return mi
+>>> ##esta funcion de conversion  1)primero el nombre de la funcion que es lo que ##va ahacer si queda muy largo se aclara en el docstring
+>>> ##se colocan los ejemplos con respuestas consultadas para tener claro q es lo q va a hacer usar los angulares para q parezca prompt estos ejemplos es muy importante
+>>> ## 2)luego el tipo de contrato valores number entre parentesis y para el valor de retorno raya y mayor q >
+>>> ##3)luego crear cabecera con palabra clave def el nombre d ela funcion y parentesis y parametro lo mas claro posible cierra parentesis y dos puntos al final
+>>> ## vamos acomodando la indentación para lo del tipo de contrato o valores qu##e es para el  docstring y comillas para cerrar y abrir incluyendo los ejemplos##. Debajo del tipo de contrato colocamos4)la descripcion lo mas clara posible e ##indicar lo que hace los valores se incluyen en esa descripcion
+>>> ##5)escribir el cuerpo teniendo en cuenta la formula ## vamos acomodando la in##dentación para lo del tipo de contrato o valores qu##e es para el  docstring ###y comillas para cerrar y abrir incluyendo los ejemplos##. Debajo del tipo de ###contrato colocamos la descripcion lo mas clara posible e ##indicar lo que hace ##los valores se incluyen en esa descripcion.
+>>> ##ACLARO QUE LA INDENTACION DEJA APARTE LA PALABRA DEF
+>>> ##Colocar el cuerpo con  la formula.Tener en cuenta errores de formula no ca##mbiar los parametros o unidades ejemplo kilometro o km no va a entender. Despu##es ## despues de la formula el return de lo que queremos devuelva y queda la f##unción completaguardar y run modulo
+>>> 
+=== RESTART: C:/Users/PRO/Desktop/programacion unity/python/convertirt.py ===
+>>> convertir_a_litros(345)
+0.345
+>>> tipos de valores interger, strings, number, float
