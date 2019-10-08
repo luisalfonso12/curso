@@ -1,3 +1,21 @@
+>>> 3 + 9
+12
+>>> 8-2
+6
+>>> 7*3
+21
+>>> ## operadores +-*/ **es potencia
+>>> 2**5
+32
+>>> ## int es integer 2 float 2.0
+>>> ## prompt es >>> alli se escriben operaciones sobre datos que son muy distintos entre si. Un tipo de operacion que incluye datos y operadores Y QUE TIENE QUE DEVOLVER RESULTADO se llama EXPRESION. para que evalue expresion se debe dar enter
+>>> ##Con operadores que tengan la misma prioridad phyton las evalua de izquierda a derecha
+>>> 4+6-2
+8
+>>> 
+
+
+
 >>> print ("Hola")
 Hola
 >>> """ las comillas no se ven porque es solo para python interno esto es para la pantalla"""
