@@ -10,7 +10,7 @@ hola mundo
 
 >>> ## comentarios
 >>> 
-==== RESTART: C:/Users/PRO/Desktop/programacion unity/python/comparar.py ====
+
 >>> ## llamar funciones y guardar resultados en variables
 >>> respuesta_return = cuadrado_return (7)
 >>> ##se crearon estas variables creamos otra variable
@@ -21,11 +21,13 @@ el cuadrado de num es 81
 49
 >>> ## no lo imprime
 >>> respuesta_print
->>> ## no devuelve porque respuesta_print no contiene return por lo tanto no ha almacenado esa variable noi el resultado de llamar a la funcion
+>>> ## no devuelve porque respuesta_print no contiene return por lo tanto no ha almacenado esa variable noi el resultado de llamar 
+a la funcion
+
 >>> cuadrado_print(6)
 el cuadrado de num es 36
 >>> 
-==== RESTART: C:/Users/PRO/Desktop/programacion unity/python/comparar.py ====
+
 >>> cuadrado_print(6)
 el cuadrado de 6 es 36     MAL ESTA TAREA DEBE GENERALIZARSE PARA QUE SIRVA PARA TODOS LOS NUMEROS
 >>> ## funcion preconstruida input devuelve la respuesta de usuario para almancenar y utilizar posteriormente
@@ -37,7 +39,8 @@ el cuadrado de 6 es 36     MAL ESTA TAREA DEBE GENERALIZARSE PARA QUE SIRVA PARA
 ' Jesus'
 >>> nombre = input("¿Como te llamas?")
 ¿Como te llamas? Jesus
->>> ## se crea la variable nombre y se modifica el prompt pues al dar la respuesta jesus ya no lo imprime porq lo que ha hecho es guardarlo
+>>> ## se crea la variable nombre y se modifica el prompt pues al dar la respuesta jesus ya no lo imprime porq lo que ha hecho es 
+guardarlo
 >>> nombre
 ' Jesus'
 >>> ## y asi si llamo esa variable ahora si muestra la respuesta
@@ -76,7 +79,8 @@ te
 encuentras'''
 >>> triple
 'hola,\ncomo\nte\nencuentras'
->>> ##para cada salto de linea aparecio barra y n \n esto es un salto de linea se llama -secuenciua de escape- es un caracter especial otra es tabulador
+>>> ##para cada salto de linea aparecio barra y n \n esto es un salto de linea se llama -secuenciua de escape- es un caracter especial
+otra es tabulador
 >>> print('3\t4\t5')
 3	4	5
 >>> #secuiencia de escape mustra esta tabulacion
